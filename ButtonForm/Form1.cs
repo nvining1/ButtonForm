@@ -21,5 +21,11 @@ namespace ButtonForm
         {
             txtCity.Text = 'Burlington';
         }
+
+        private void btnNewHampshire_Click(object sender, EventArgs e)
+        {
+            txtCity.Text = 'Concord';
+            txtCity.Text = 'Manchester';
+        }
     }
 }

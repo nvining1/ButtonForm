@@ -51,6 +51,7 @@
             this.btnNewHampshire.TabIndex = 1;
             this.btnNewHampshire.Text = "New Hampshire";
             this.btnNewHampshire.UseVisualStyleBackColor = true;
+            this.btnNewHampshire.Click += new System.EventHandler(this.btnNewHampshire_Click);
             // 
             // txtCity
             // 
